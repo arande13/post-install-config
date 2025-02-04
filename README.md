@@ -17,11 +17,11 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Configure Agents and Users
+- Configure SLA and Help Topics
+- Configure Roles
+- Configure Departments
+- Configure Teams
 
 <h2>Configuration Steps</h2>
 
@@ -29,7 +29,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Help topics were configured to prepare for the mock ticket scenario. Help topics (Business Critical Outage, Personal Computer Issues, Password Reset, and Equipment Request) were created to reflect real life scenarios that an agent will encounter in the help desk landscape. 
 </p>
 <br />
 
@@ -37,7 +37,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Agents roles have been configured to allow or restrict their access based off rank in the mock OSTicket. The varying levels (Supreme Admin, Expanded Access, and Limited Access) have been added to differentiate what an agent can do in regards to modifying a ticket, working, and ultimatelty resolving/closing the ticket.
 </p>
 <br />
 
@@ -45,6 +45,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The agent users, Jane and John Doe, have been created as mock agents that have logins. They serve the purpose of allowing me to login from the agent perspective to work tickets created by the my admin login labuser1. 
 </p>
 <br /># post-install-config
